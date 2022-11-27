@@ -1,0 +1,37 @@
+header
+{
+    margin: 0px;
+    padding-left: 10em;
+    padding-left: 10em;
+    background-color: #BDC5E6;
+    height: 8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.buttons button
+{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    height: 36px;
+    line-height: 34px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #007c89;
+    transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+    padding: 0 18px;
+    margin: 1em;
+}
+.logo img
+{
+    width: 180px;
+    height: 180px;
+}
+.buttons button:hover {
+    color: #ffffff;
+    background-color: #006570;
+}
