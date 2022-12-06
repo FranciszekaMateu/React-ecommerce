@@ -2,7 +2,7 @@ import React from "react";
 import "./ItemListContainer.css";
 
 
-const ItemListContainer = () =>
+const ItemListContainer = (props) =>
 {
     return(
         <div className="menu">
@@ -32,6 +32,7 @@ const ItemListContainer = () =>
                     <h4>Memorias Ram</h4>
                 </li>
             </ul>
+            <h2>{props.name}</h2>
         </div>
     )
 }

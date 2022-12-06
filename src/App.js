@@ -4,8 +4,8 @@ import ItemListContainer from "./components/itemListContent/ItemListContainer";
 function App() {
   return (
     <>
-      <NavBar/>
-      <ItemListContainer />
+      <NavBar />
+      <ItemListContainer name="GamingElectron" />
     </>    
   );
 }
