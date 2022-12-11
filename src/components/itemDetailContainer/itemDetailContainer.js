@@ -9,15 +9,15 @@ const ItemDetailContainer = () => {
     const { id } = useParams()
   
     useEffect( ()=>{
-  
-      const productSelected = products.find( producto => producto.id === parseInt(id) )
+      console.log(products)
+      const productSelected = products.find( producto => parseInt(producto.id) === parseInt(id) )
+      console.log(productSelected)
       setProduct(productSelected)
   
     }, [id])
-  
     return (
       <div>
-         <ItemDetail product={ products } />
+         <ItemDetail product={ product } />
       </div>
     )
   }

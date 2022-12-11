@@ -18,9 +18,9 @@ header
     align-items: center;
     justify-content: space-between;
 }
-.btn
+.btn-primary
 {
-    background-color: #ffffff;
+    margin: 3em;
 }
 .logo img
 {

@@ -30,7 +30,7 @@ const ItemListContainer = () =>
       }, [categoryName])
     return(
         <div className="items-container">
-            <ItemMenu/>
+            <ItemMenu category={categoryName}/>
             <ItemList items={items} />
         </div>
     )
