@@ -1,3 +1,12 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+    box-sizing: border-box;
+}
 header
 {
     margin: 0px;
@@ -9,22 +18,9 @@ header
     align-items: center;
     justify-content: space-between;
 }
-.buttons button
+.btn
 {
-    display: inline-block;
-    outline: none;
-    cursor: pointer;
-    font-weight: 500;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    height: 36px;
-    line-height: 34px;
-    font-size: 14px;
-    color: #ffffff;
-    background-color: #007c89;
-    transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
-    padding: 0 18px;
-    margin:7em;
+    background-color: #ffffff;
 }
 .logo img
 {

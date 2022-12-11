@@ -9,9 +9,9 @@ const NavBar = () =>
                 <img src="https://res.cloudinary.com/dbexeui7n/image/upload/v1669483701/Morgan-removebg-preview_xzl6ip.png"></img>
             </div>
             <nav className="buttons">
-                <button>Tienda</button>
-                <button>Nosotros</button>
-                <button>Contacto</button>
+                <button className="btn btn-primary">Tienda</button>
+                <button className="btn btn-primary">Nosotros</button>
+                <button className="btn btn-primary">Contacto</button>
             </nav>
             <CartWidget />
         </header>

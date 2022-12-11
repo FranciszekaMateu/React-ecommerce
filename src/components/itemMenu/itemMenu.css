@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+.menu
+{
+    margin-left: 10em;
+    margin-right: 10em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #6d6875;
+    padding: 2em;
+}
