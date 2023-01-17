@@ -73,7 +73,7 @@ const ItemListContainer = (props) =>
         })    
       }
      setTimeout(() => setLoading(false),2000)
-    }, [categoryName],[spec])
+    }, [categoryName,spec])
     return(
       <div className="itemsContainer">
          {
