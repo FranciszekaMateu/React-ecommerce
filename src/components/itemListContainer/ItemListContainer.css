@@ -1,15 +1,16 @@
-*{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	text-decoration: none;
-	border: none;
-	outline: none;
-	box-sizing: border-box;
-}
-.items-container
+	*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-decoration: none;
+		border: none;
+		outline: none;
+		box-sizing: border-box;
+	}
+.itemsContainer
 {
+	border-left: 2px solid #f03c00;
 	display: flex;
-	margin-right: 11px;
-	margin-left: 10px;
+	justify-content: center;
+	align-items: center;
 }

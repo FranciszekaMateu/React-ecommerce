@@ -9,25 +9,38 @@
 }
 header
 {
+    box-shadow: 10px 10px 130px 0px rgba(0,0,0,0.75);
     margin: 0px;
     padding-left: 10em;
     padding-right: 11em;
-    background-color: #BDC5E6;
+    background-color: white;
     height: 9em;
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
-.btn-primary
+.button-menu
 {
     margin: 3em;
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    width: 10em
 }
 .logo img
 {
     width: 200px;
     height: 200px;
 }
-.buttons button:hover {
+.button-menu:hover {
     color: #ffffff;
-    background-color: #006570;
+    background-color: #F03C00;
 }

@@ -9,9 +9,28 @@
 }
 .menu
 {
-    margin-left: 10em;
-    margin-right: 10em;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #6d6875;
     padding: 2em;
+	width: 50%;
+	display: inline-block;
+}
+a:link, a:visited,  a:hover, a:active
+{
+    color: #000000;
+    text-decoration: none;
+}
+.acordion
+{
+	width: 20em;
+	border-bottom: 5px solid #F03C00;
+	border-top: 5px solid #F03C00;
+
+}
+.item{
+	border-bottom: 0px solid #F03C00;
+	border-top: 0px solid #F03C00;
+}
+h4:hover	
+{
+	color: #F03C00;
 }

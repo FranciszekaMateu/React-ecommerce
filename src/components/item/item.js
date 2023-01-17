@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom"
 import "./item.css"
+import { Button } from "react-bootstrap"
 const Item =(element) =>
 {
-    console.log(element.element)
     return (
     <div className="card" >
-        <img className="card-img-top" src={element.element.img} alt="Card image cap"/>
+        <img className="card-img-top" src={element.element.link_foto} alt="Card image cap"/>
         <div className="card-body">
-            <h5 className="card-title">{element.element.name}</h5>
-            <p className="card-text">{element.element.name}</p>
-            <Link to={`/itemDetail/${element.element.id}`}><button className="btn btn-primary">Ver mas</button></Link>
+            <h5 className="card-title">{element.element.nombre}</h5>
+            <strong><p className="card-text"> US$ {element.element.precio}</p></strong> 
+            <Link to={`/itemDetail/${element.element.id}`}><Button className="button-card">Ver mas</Button></Link>
         </div>
     </div>
     )

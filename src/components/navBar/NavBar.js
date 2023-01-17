@@ -1,5 +1,7 @@
 import React from "react";
 import CartWidget from "./../cartWidget/CartWidget"
+import { Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 import "./NavBar.css"
 const NavBar = () =>
 {
@@ -9,9 +11,9 @@ const NavBar = () =>
                 <img src="https://res.cloudinary.com/dbexeui7n/image/upload/v1669483701/Morgan-removebg-preview_xzl6ip.png"></img>
             </div>
             <nav className="buttons">
-                <button className="btn btn-primary">Tienda</button>
-                <button className="btn btn-primary">Nosotros</button>
-                <button className="btn btn-primary">Contacto</button>
+                <Link to="/"><Button className="button-menu">Tienda</Button></Link> 
+                <Button className="button-menu">Nosotros</Button>
+                <Button className="button-menu">Contacto</Button>
             </nav>
             <CartWidget />
         </header>

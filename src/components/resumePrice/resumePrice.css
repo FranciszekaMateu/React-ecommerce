@@ -1,0 +1,45 @@
+.totalprice
+{
+    margin-left: 2em;
+}
+.clear-item
+{
+    background-color: #FFFFFF;
+    border: 1px solid #222222;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    height: 4em;
+    width: 10em;
+}
+.clear-item:hover {
+    color: #ffffff;
+    background-color: #F03C00;
+}
+.comprar
+{
+    margin: 3em;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222222;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    height: 4em;
+    width: 10em;
+    color: #ffffff;
+    background-color: #F03C00;
+    margin: 0.5em;
+}
+.comprar:hover
+{
+    background-color: #FFFFFF;
+    color: #222222;
+}

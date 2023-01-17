@@ -1,0 +1,12 @@
+.carrusel
+{
+
+   box-shadow: 10px 10px 130px 0px rgba(0,0,0,0.75);
+   border: 3px solid #f03c00;
+   border-left-style: none ;
+   border-right-style: none ;
+}
+.carrusel img 
+{ 
+    height: 20em;
+}

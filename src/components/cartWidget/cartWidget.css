@@ -6,5 +6,10 @@ img
 h2
 {
     font-size: 2em;
+    margin: 1em;
 }
-
+.cart_widget
+{
+    display: flex;
+    align-items: center;
+}
