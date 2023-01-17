@@ -24,13 +24,28 @@ a:link, a:visited,  a:hover, a:active
 	width: 20em;
 	border-bottom: 5px solid #F03C00;
 	border-top: 5px solid #F03C00;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 
 }
 .item{
-	border-bottom: 0px solid #F03C00;
-	border-top: 0px solid #F03C00;
+	border: 0px solid #F03C00;
+	border: 0px solid #F03C00;
 }
 h4:hover	
 {
 	color: #F03C00;
+}
+.opcion
+{
+	border:0px
+}
+.enlace-nacc
+{
+	margin-top: 1em;
+}
+h4
+{
+	margin-right: 0.5em;
 }
