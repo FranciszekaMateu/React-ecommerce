@@ -1,4 +1,5 @@
 # React-ecommerce
+This is a conceptual ecommerce, made with React and React-Bootstrap
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
