@@ -1,6 +1,6 @@
 # React-ecommerce
 This is a conceptual ecommerce, made with **React**,[**React-Bootstrap**](https://react-bootstrap.github.io) and [**Firebase**](https://firebase.google.com) for the back.
-You can se it [**here**](https://react-ecommerce-black.vercel.app/itemDetail/1OeTxrV2Gcyr279mrxQ1)
+You can se it [**here**](https://react-ecommerce-black.vercel.app)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
